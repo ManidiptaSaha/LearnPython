@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Tesla",
+    "model": "Cybertruck"
+  },
+  {
+    "id": 2,
+    "manufacturer": "Tesla",
+    "model": "Model 3"
+  },
+  {
+    "id": 3,
+    "manufacturer": "Tata",
+    "model": "Nexon"
+  },
+  {
+    "id": 4,
+    "manufacturer": "Maruti",
+    "model": "Baleno"
+  },
+  {
+    "id": 5,
+    "manufacturer": "Toyota",
+    "model": "tacoma"
+  }
+]
