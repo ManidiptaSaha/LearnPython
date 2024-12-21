@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Ford",
+    "model": "Model T",
+    "build": 1927
+  },
+  {
+    "id": 2,
+    "manufacturer": "Tesla",
+    "model": "Model 3",
+    "build": 2017
+  },
+  {
+    "id": 3,
+    "manufacturer": "Tesla",
+    "model": "Cybertruck",
+    "build": 2019
+  },
+  {
+    "id": 4,
+    "manufacturer": "Maruti",
+    "model": "Baleno",
+    "build": 2020
+  },
+  {
+    "id": 5,
+    "manufacturer": "Tata",
+    "model": "Nexon",
+    "build": 2001
+  }
+]
