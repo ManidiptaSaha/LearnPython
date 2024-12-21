@@ -6,6 +6,9 @@ baseurl = 'https://car-fleet-management.herokuapp.com/cars'
 response = requests.get(baseurl)
 print(response.json())
 
+'''
+IN PUT you need to provide ALL the keys and updated value pairs unlike PATCH
+'''
 #oldData
 #data = {"manufacturer": "Tata", "model": "Nexon", "build": 2000}
 
