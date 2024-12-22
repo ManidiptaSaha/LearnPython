@@ -1,0 +1,68 @@
+{
+  "@odata.context": "$metadata#Processes/$entity",
+  "@odata.etag": "W/\"e1ee8374ff26b464d01251d9a67d93f15cbc22da\"",
+  "Name": "mover",
+  "HasSecurityAccess": true,
+  "PrologProcedure": "#****Begin: Generated Statements***\r\nOldCubeLogChanges = CUBEGETLOGCHANGES('plan_BudgetPlan');\r\nCUBESETLOGCHANGES('plan_BudgetPlan', 0);\r\n#****End: Generated Statements****",
+  "MetadataProcedure": "#****Begin: Generated Statements***\r\n#****End: Generated Statements****",
+  "DataProcedure": "#****Begin: Generated Statements***\r\nvMonth=subst(plan_time, 1, 7) | '3';\r\nvVersion='FY 2003 Budget';\r\nif (VALUE_IS_STRING=1, CellPutS(SVALUE,'plan_BudgetPlan',vVersion,plan_business_unit,plan_department,plan_chart_of_accounts,plan_exchange_rates,plan_s\r\nource,vMonth), CellPutN(NVALUE, 'plan_BudgetPlan', vVersion,plan_business_unit,plan_department,plan_chart_of_accounts,plan_exchange_rates,plan_source,\r\nvMonth));\r\n#****End: Generated Statements****",
+  "EpilogProcedure": "#****Begin: Generated Statements***\r\nCUBESETLOGCHANGES('plan_BudgetPlan', OldCubeLogChanges);\r\n#****End: Generated Statements****\r\nSaveDataAll();",
+  "DataSource": {
+    "Type": "TM1CubeView",
+    "dataSourceNameForClient": "plan_BudgetPlan",
+    "dataSourceNameForServer": "plan_BudgetPlan",
+    "view": "mover"
+  },
+  "Parameters": [],
+  "Variables": [
+    {
+      "Name": "plan_business_unit",
+      "Type": "String",
+      "Position": 2,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "plan_department",
+      "Type": "String",
+      "Position": 3,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "plan_chart_of_accounts",
+      "Type": "String",
+      "Position": 4,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "plan_exchange_rates",
+      "Type": "String",
+      "Position": 5,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "plan_source",
+      "Type": "String",
+      "Position": 6,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "plan_time",
+      "Type": "String",
+      "Position": 7,
+      "StartByte": 0,
+      "EndByte": 0
+    },
+    {
+      "Name": "Value",
+      "Type": "Numeric",
+      "Position": 8,
+      "StartByte": 0,
+      "EndByte": 0
+    }
+  ]
+}
