@@ -1,0 +1,81 @@
+{
+  "@odata.context": "../../$metadata#Cellsets(Cells)/$entity",
+  "ID": "dsfLu1ADAIBUAAAg",
+  "Cells": [
+    {
+      "Ordinal": 0,
+      "Value": 50448698.469999984,
+      "FormattedValue": "50,448,698"
+    },
+    {
+      "Ordinal": 1,
+      "Value": 12576175.34,
+      "FormattedValue": "12,576,175"
+    },
+    {
+      "Ordinal": 2,
+      "Value": 12591211.870000001,
+      "FormattedValue": "12,591,212"
+    },
+    {
+      "Ordinal": 3,
+      "Value": 12717641.41,
+      "FormattedValue": "12,717,641"
+    },
+    {
+      "Ordinal": 4,
+      "Value": 12563669.85,
+      "FormattedValue": "12,563,670"
+    },
+    {
+      "Ordinal": 5,
+      "Value": 38879260.05,
+      "FormattedValue": "38,879,260"
+    },
+    {
+      "Ordinal": 6,
+      "Value": 9658107.66,
+      "FormattedValue": "9,658,108"
+    },
+    {
+      "Ordinal": 7,
+      "Value": 9688779.03,
+      "FormattedValue": "9,688,779"
+    },
+    {
+      "Ordinal": 8,
+      "Value": 9799887.26,
+      "FormattedValue": "9,799,887"
+    },
+    {
+      "Ordinal": 9,
+      "Value": 9732486.1,
+      "FormattedValue": "9,732,486"
+    },
+    {
+      "Ordinal": 10,
+      "Value": 11569438.42,
+      "FormattedValue": "11,569,438"
+    },
+    {
+      "Ordinal": 11,
+      "Value": 2918067.68,
+      "FormattedValue": "2,918,068"
+    },
+    {
+      "Ordinal": 12,
+      "Value": 2902432.84,
+      "FormattedValue": "2,902,433"
+    },
+    {
+      "Ordinal": 13,
+      "Value": 2917754.1500000004,
+      "FormattedValue": "2,917,754"
+    },
+    {
+      "Ordinal": 14,
+      "Value": 2831183.75,
+      "FormattedValue": "2,831,184"
+    }
+  ]
+}
